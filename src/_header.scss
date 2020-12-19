@@ -106,21 +106,17 @@
     height: 80%;
     border: 2px solid lightblue;
     padding-right: 130px;
-}
-
-.leftblock h1 {
-    font-size: 45px;
-    margin-bottom: 40px;
-}
-
-.leftblock p {
-    font-size: 25px;
-    margin-bottom: 30px;
-}
-
-.leftblock ul li {
-    list-style: none;
-    display: inline;
+    p {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    ul li {
+        @include navlistyle;
+    }
 }
 
 .signup2 {
@@ -145,4 +141,10 @@
     height: 100%;
     width: 55%;
     border: 2px solid black;
+}
+
+.rightheader img {
+    height: 80%;
+    width: 100%;
+    padding-top: 40px;
 }
