@@ -17,7 +17,16 @@
 }
 
 #containerup1 {
-    height: 350px;
+    height: 200px;
+    background-color: #ffe7d2;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#containerup2 {
+    height: 100px;
     background-color: #ffe7d2;
     border: 2px solid blue;
     display: flex;
@@ -36,7 +45,26 @@
 }
 
 .threeblock img {
-    height: 50%;
+    height: 55%;
+}
+
+.threeblockimage {
+    height: 80%;
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.descriptionblock {
+    height: 100%;
+    width: 20%;
+    float: left;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.descriptionblock p {
+    margin-top: 5px;
 }
 
 #subcontainer1 {
@@ -76,6 +104,9 @@
     width: 20%;
     float: left;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #containerdown1 {
@@ -85,4 +116,50 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+#feedback1 {
+    height: 750px;
+    background-color: white;
+}
+
+.feedblockleft {
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    img {
+        height: 65%;
+        margin-top: 80px;
+    }
+}
+
+.feedblockright {
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+    float: left;
+}
+
+.subfeedblockrightup {
+    height: 50%;
+    border: 2px solid orange;
+    padding-right: 600px;
+    padding-top: 55px;
+    h1, p {
+        margin-top: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+.subfeedblockrightdown {
+    height: 50%;
+    border: 2px solid orangered;
+    img {
+        height: 70%;
+        padding-left: 100px;
+    }
 }
