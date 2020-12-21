@@ -1,14 +1,15 @@
 #uppertitle {
     height: 180px;
-    background-color: #ffe7d2;
-    border: 2px solid black;
+    // background-color: #ffe7d2;
+    background-color: #7f14D4;
+    // border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
 #uppertitleson {
-    border: 2px solid black;
+    // border: 2px solid black;
     height: 100%;
     width: 50%;
     padding-top: 80px;
@@ -18,8 +19,9 @@
 
 #containerup1 {
     height: 200px;
-    background-color: #ffe7d2;
-    border: 2px solid blue;
+    // background-color: #ffe7d2;
+    background-color: #4466D4;
+    // border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -27,8 +29,9 @@
 
 #containerup2 {
     height: 100px;
-    background-color: #ffe7d2;
-    border: 2px solid blue;
+    // background-color: #ffe7d2;
+    background-color: #4466D4;
+    // border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -38,39 +41,38 @@
     height: 100%;
     width: 20%;
     float: left;
-    border: 2px solid black;
+    // border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.threeblock img {
-    height: 55%;
+    img {
+        height: 55%;
+    }
 }
 
 .threeblockimage {
     height: 80%;
     width: 100%;
-    border: 2px solid blue;
+    // border: 2px solid blue;
 }
 
 .descriptionblock {
     height: 100%;
     width: 20%;
     float: left;
-    border: 2px solid black;
+    // border: 2px solid black;
     text-align: center;
     padding-top: 20px;
-}
-
-.descriptionblock p {
-    margin-top: 5px;
+    p {
+        margin-top: 5px;
+    }
 }
 
 #subcontainer1 {
     height: 450px;
-    background-color: #ffe7d2;
-    border: 2px solid blue;
+    // background-color: #ffe7d2;
+    background-color: #4466D4;
+    // border-bottom: 1.5px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,8 +80,9 @@
 
 #subcontainer2 {
     height: 150px;
-    background-color: #ffe7d2;
-    border: 2px solid blue;
+    // background-color: #ffe7d2;
+    background-color: #4466D4;
+    // border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,21 +92,20 @@
     height: 100%;
     width: 20%;
     float: left;
-    border: 2px solid blue;
+    // border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.subthreeblock img {
-    height: 70%;
+    img {
+        height: 70%;
+    }
 }
 
 .quoteblock {
     height: 100%;
     width: 20%;
     float: left;
-    border: 2px solid black;
+    // border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,8 +113,9 @@
 
 #containerdown1 {
     height: 350px;
-    background-color: #ffe7d2;
-    border: 2px solid blue;
+    // background-color: #ffe7d2;
+    background-color: #7f14D4;
+    // border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -127,7 +130,7 @@
 .feedblockleft1 {
     height: 100%;
     width: 50%;
-    border: 2px solid black;
+    // border: 2px solid black;
     float: left;
     text-align: center;
     img {
@@ -139,13 +142,13 @@
 .feedblockright1 {
     height: 100%;
     width: 50%;
-    border: 2px solid black;
+    // border: 2px solid black;
     float: left;
 }
 
 .subfeedblockrightup1 {
     height: 50%;
-    border: 2px solid orange;
+    // border: 2px solid orange;
     padding-right: 600px;
     padding-top: 55px;
     h1, p {
@@ -158,7 +161,7 @@
 
 .subfeedblockrightdown1 {
     height: 50%;
-    border: 2px solid orangered;
+    // border: 2px solid orangered;
     img {
         height: 70%;
         padding-left: 100px;
@@ -174,14 +177,14 @@
 .feedblockleft2 {
     height: 100%;
     width: 50%;
-    border: 2px solid black;
+    // border: 2px solid black;
     float: left;
 }
 
 .feedblockright2 {
     height: 100%;
     width: 50%;
-    border: 2px solid black;
+    // border: 2px solid black;
     float: left;
     text-align: center;
     img {
@@ -192,7 +195,7 @@
 
 .subfeedblockrightup2 {
     height: 50%;
-    border: 2px solid orange;
+    // border: 2px solid orange;
     padding-left: 600px;
     padding-top: 55px;
     h1, p {
@@ -205,7 +208,7 @@
 
 .subfeedblockrightdown2 {
     height: 50%;
-    border: 2px solid orangered;
+    // border: 2px solid orangered;
     img {
         height: 80%;
         padding-left: 550px;
@@ -214,12 +217,13 @@
 
 #container3 {
     height: 900px;
-    background-color: #ffe7d2;
+    // background-color: #ffe7d2;
+    background-color: #7f14D4;
 }
 
 .title3 {
     height: 20%;
-    border: 2px solid black;
+    // border: 2px solid black;
     text-align: center;
     padding-top: 45px;
     p {
@@ -230,7 +234,7 @@
 
 .messagecontainer {
     height: 65%;
-    border: 2px solid blue;
+    // border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +244,7 @@
 #message {
     height: 100%;
     width: 35%;
-    border: 2px solid lightblue;
+    // border: 2px solid lightblue;
     background-color: white;
     padding: 20px;
     padding-left: 40px;
@@ -253,13 +257,13 @@
 
 .signcontainer {
     height: 15%;
-    border: 2px solid orange;
+    // border: 2px solid orange;
     text-align: center;
 }
 
 .signblock {
     height: 100%;
-    border: 2px solid lightblue;
+    // border: 2px solid lightblue;
     p {
         font-size: 25px;
         margin-bottom: 30px;
